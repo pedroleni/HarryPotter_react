@@ -1,0 +1,99 @@
+footer{
+    
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+
+}
+
+
+
+footer ul {
+    display:flex;
+
+}
+
+footer {
+    position: relative;
+    color: white;
+    background-color: black;
+    height: 80px;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+}
+footer div ul li img{
+    width: 40px;
+    height: auto;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    font-size: 20px;
+}
+.image_footer_first img{
+    width: 100%;
+}
+.image_footer_first{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width: 776px){
+    .flipCard-clow{
+        width: 25%;
+    }
+
+
+
+
+
+}
+
+
+
+@media (max-width: 776px) {
+    footer{
+        height: 10vh;
+    }
+
+}
+
+
+@media (max-width: 576px) {
+}
+
+@media (max-width: 420px) {
+    footer{
+        height: 8vh;
+        font-size: 5px;
+    }
+
+    footer ul li{
+        
+        font-size: 12px;
+    }
+
+    .image_footer_first{
+        width: 100%;
+        margin: 0px;
+    }
+
+    .image_footer_first img {
+        width: 32vh;
+    }
+
+
+}
+
+
